@@ -1,15 +1,24 @@
 package helper
 
-import "fmt"
+import (
+	"errors"
+	"fmt"
+)
 
 // function for take input
-func InputHelper(message string) string{
+func InputHelper(message string) (interface{}, error){
+
 	fmt.Print(message)
-	var result string;
+	var result string
 	fmt.Scanln(&result);
-	return result 
+
+	if len(result) == 0 {
+		return nil, errors.New("Please input data....")
+	}else {
+		return result, nil	
+	}
 }
 
-func Line(){
+func LineBarrier(){
 	fmt.Println("----------------------------")
 }
