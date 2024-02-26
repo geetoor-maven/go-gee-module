@@ -2,8 +2,7 @@
     <h1 align="center">GO GEE MODULE CLI APPS</h1>
 </p>
 
-[![Learning Go]()](https://github.com/geetoor-maven/learngolang/tree/main)
-[![Release]())](https://github.com/geetoor-maven/go-gee-module/tags)
+GO GEE MODULE CLI APPS is code framework written in Go(https://go.dev/). features in this code framework to help streamline command line application development (CLI Apps)
 
 ### Getting GO GEE MODULE CLI APPS
 run the following Go command to install package:
