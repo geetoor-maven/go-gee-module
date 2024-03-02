@@ -8,7 +8,7 @@ GO GEE MODULE BANK CLI APPS is code framework written in Go(https://go.dev/). fe
 run the following Go command to install package:
 
 ```sh
-$ go get github.com/geetoor-maven/go-gee-module/v1
+$ go get github.com/geetoor-maven/go-gee-module/v2
 ```
 
 ### Use Go gee module bank cli
