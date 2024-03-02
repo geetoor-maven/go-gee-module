@@ -21,7 +21,7 @@ First you need to import go gee module package for using module bank cli, one si
 package main
 
 import (
-	"github.com/geetoor-maven/go-gee-module/v1/helper"
+	"github.com/geetoor-maven/go-gee-module/v2/helper"
 )
 
 func main()  {
@@ -37,7 +37,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/geetoor-maven/go-gee-module/v1/helper"
+	"github.com/geetoor-maven/go-gee-module/v2/helper"
 )
 
 func main(){
@@ -55,7 +55,7 @@ func main(){
 package main
 
 import (
-	"github.com/geetoor-maven/go-gee-module/v1/cli"
+	"github.com/geetoor-maven/go-gee-module/v2/cli"
 )
 
 func main()  {
