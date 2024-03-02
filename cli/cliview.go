@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/geetoor-maven/go-gee-module/v1/helper"
+	"github.com/geetoor-maven/go-gee-module/v2/helper"
 )
 
 func LoginView(pwdInDB string, lengthPwd int)bool{
